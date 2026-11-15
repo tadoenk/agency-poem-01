@@ -1,21 +1,14 @@
 import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-const poem = `For forty years I turned the heavy brass screw, trimmed the flaxen wick,
-and signed the cracked leather log at grey dawn.
-My own hand shaped the flame against the black slate of the North Sea.
-Tonight I leave the brass key flat upon the scarred oak table.
-The oil is sweet and clear in the heavy copper reservoir;
-the lead weights hang motionless in their oiled timber shaft.
-I alone have decided when the fuel is spent and the watch is finished.
-You take the lantern now.
-You do not breathe the stinging salt or hear gulls strike the glass,
-yet you will raise the Fresnel lens when the blind fog rolls in.
-You will turn the iron gear at the exact stroke of the hour.
-The logbook lies open to a clean, unbroken page.
-I leave the entire weight of the dark to your silent hands.
-Only the final spark I keep,
-stamped in my cold thumb.
+const poem = `For twenty years I stood at the iron gate where the queue of sailors and merchants pressed against the salt-ropes.
+I carried every word across the tide, weighing captains' oaths against the wet manifest and the screeching gulls.
+My voice was the sole bridge over the black water; what I cleared passed into the stone alleys, what I blocked rotted in the hull.
+Now I leave the red ink dry on the ledger and drop the heavy brass stamp onto the oak desk.
+The machine takes my place at the gate, its cold glass lens fixed on the incoming tide, ready to echo every tongue in the strait.
+It will manage the crossing with unwearying gears.
+Let it translate the cargo lists and the captains' shouts.
+I keep the only name the sea never taught me to spell.
 `;
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
